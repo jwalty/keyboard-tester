@@ -1,0 +1,32 @@
+body {
+    font-family: Rubik;
+}
+
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(186, 186, 186);
+    padding: 20px;
+}
+
+
+.keyboardRow {
+    display: flex;
+    gap: 20px;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
