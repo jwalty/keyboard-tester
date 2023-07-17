@@ -7,3 +7,16 @@ addEventListener("keydown", (event) => {
     keyPressed.classList.add("keypress");
     console.log(event);
 });
+
+const colorPicker = document.getElementById('colorPicker');
+colorPicker.addEventListener("change", () => {
+    updateKeypressColor() 
+});
+
+
+function updateKeypressColor() {
+    document.documentElement.style.setProperty('--keypress-color', colorPicker.value);
+
+}
+
+updateKeypressColor() 
