@@ -5,4 +5,5 @@ addEventListener("keydown", (event) => {
     keyPressed.classList.remove("keypress");
     void keyPressed.offsetWidth;
     keyPressed.classList.add("keypress");
+    console.log(event);
 });
